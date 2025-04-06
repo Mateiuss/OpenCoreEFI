@@ -30,38 +30,6 @@
 				<key>Path</key>
 				<string>SSDT-EC-USBX-DESKTOP.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-EC.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-EC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PLUG-ALT.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PLUG-ALT.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-USB-Reset.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-USB-Reset.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-USBX.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-USBX.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -1512,7 +1480,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera slide=256</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera slide=0</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1707,7 +1675,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
